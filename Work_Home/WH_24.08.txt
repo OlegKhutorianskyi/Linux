@@ -1,0 +1,2 @@
+1) git branch Имя ветки
+2) git checkout Имя ветки

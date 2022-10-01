@@ -1,0 +1,11 @@
+   0 cd /
+   1 ls -1 | head -5 > /tmp/Khutorianskiy.txt
+   2 cd /tmp
+   3 export MYVAR=$(date)
+   4 echo $MYVAR >> Khutorianskiy.txt
+   5 df -h
+   6 df -h | awk '{print$3}' >> Khutorianskiy.txt
+   7 cat Khutorianskiy.txt
+   8 ls -l
+   9 chmod ugo+rw Khutorianskiy.txt
+  10 history > /history.txt

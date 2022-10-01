@@ -1,0 +1,23 @@
+commit 32f385feca6f38e5d6644eaccd84f7e1ebf6fa2c
+Author: Oleg Khutorianskyi <compilated510@outlook.com>
+Date:   Mon Aug 22 12:01:07 2022 +0200
+
+    gitignore 1.
+
+commit 03742c227f4ba21577a1f3ecd19135db4f94337c
+Author: Oleg Khutorianskyi <compilated510@outlook.com>
+Date:   Mon Aug 22 11:48:49 2022 +0200
+
+    ignore dcsdcsdcsd
+
+commit e0ff86e3b8723ff8b981280023cf7ebfc00c5c94
+Author: Oleg Khutorianskyi <compilated510@outlook.com>
+Date:   Mon Aug 22 11:19:37 2022 +0200
+
+    modificate
+
+commit 297da5f0db1e0292c03b61083ccc5e05ed249c2f
+Author: Oleg Khutorianskyi <compilated510@outlook.com>
+Date:   Mon Aug 22 10:58:25 2022 +0200
+
+    nitial commit

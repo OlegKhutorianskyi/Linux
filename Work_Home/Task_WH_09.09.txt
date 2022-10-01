@@ -1,0 +1,10 @@
+
+nano sleeper.sh
+#!opt/35_36_morning_b/Khutorianskiy_Oleg/sleeper.sh
+for numberr in {1..10} - условие цикла
+do
+echo -n  "$numberr      "
+date +"%H:%M:%S" - кастомный вывод команды дата
+sleep 5 - 5сикундная задержка вывода команды
+done - завершение
+bash sleeper.sh вызов скрипта

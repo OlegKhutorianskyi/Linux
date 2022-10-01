@@ -1,0 +1,24 @@
+/* Удалил свою папку из /opt  и создал в нужной папке -->
+
+cd /opt
+rmdir Khutorianskiy_Oleg 
+cd ./35_36_morning_b && mkdir Khutorianskiy_Oleg
+cd ./Khutorianskiy_Oleg
+
+*/
+
+nano sleeper.sh
+#!opt/35_36_morning_b/Khutorianskiy_Oleg/sleeper.sh
+for numberr in {1..10}
+do
+echo -n  "$numberr      "
+date +"%H:%M:%S"
+sleep 5
+done
+bash sleeper.sh
+nano sleeper.sh
+sleep 1
+lscpu > cpu.txt
+cat /etc/os-release | head -1 > os.txt
+cat /etc/os-release | head -1 | sed 's/NAME="Amazone Linux"/Amazone/g'        <-- Работал на сервере, поэтому указана другая ОС нежели в дз, (песочнице)-->
+touch new-file-{50..100}.txt

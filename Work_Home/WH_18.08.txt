@@ -1,0 +1,8 @@
+cd ../tmp && echo "Hello student" > fileOleg.txt 
+cd ../etc
+cat group >> ../tmp/fileOleg.txt
+cd ../tmp
+df -h | tail -1 >> fileOleg.txt
+history | wc -l >> fileOleg.txt
+history > /tmp/history.txt
+export_file /tmp/history.txt
